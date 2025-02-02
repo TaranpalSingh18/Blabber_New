@@ -1,10 +1,11 @@
 import React from 'react'
 import Login from './Components/Login'
+import Navbar from './Components/Navbar'
 
 function App() {
   return (
-    <div>
-      <Login />
+    <div className='bg-black w-full h-screen'>
+      <Navbar/>
     </div>
   )
 }
